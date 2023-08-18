@@ -1,0 +1,35 @@
+header {
+  backdrop-filter: blur(8px) saturate(200%);
+  -webkit-backdrop-filter: blur(8px) saturate(200%);
+  background-color: rgba(253, 252, 251, 0.13);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.headerContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin: 0 100px;
+  padding: 20px;
+}
+
+.headerContent ul {
+  display: flex;
+  gap: 20px;
+}
+
+.headerContent ul a {
+  color: #000;
+  font-size: 20px;
+  transition: 0.50s ease;
+}
+
+.headerContent ul a:hover {
+  color: red;
+  border-bottom: 1px solid red;
+}
+
+.headerContent img {
+  width: 180px;
+}
